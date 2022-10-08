@@ -1,0 +1,9 @@
+build:
+  python_version: "3.8"
+  python_packages:
+    - "mediapipe==0.8.11"
+  system_packages:
+    - "libpng-dev"
+    - "libgl1"
+    - "libjpeg-dev"
+predict: "predict.py:Predictor"
