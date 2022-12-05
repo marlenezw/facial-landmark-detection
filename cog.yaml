@@ -1,7 +1,7 @@
 build:
   python_version: "3.8"
   python_packages:
-    - "mediapipe==0.8.11"
+    - "mediapipe==0.9.0"
   system_packages:
     - "libpng-dev"
     - "libgl1"
